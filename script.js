@@ -56,5 +56,135 @@ filterInput.addEventListener('input', function (e) {
     }
 });
 
+const links = [
+    {
+        name: 'LinkedIn',
+        description: 'Connections and career updates',
+        url: 'linkedin.com/in/',
+        icon: 'fa-brands fa-linkedin',
+        color: '#0077B5'
+    },
+    {
+        name: 'HackerRank',
+        description: 'For problem solving skills',
+        url: 'hackerrank.com/',
+        icon: 'fa-brands fa-hackerrank',
+        color: '#1ba94c'
+    },
+    {
+        name: 'GitHub',
+        description: 'My favourite place :)',
+        url: 'github.com/',
+        icon: 'fa-brands fa-github',
+        color: '#24292e'
+    },
+    {
+        name: 'Dev.to',
+        description: 'I share and learn with you!',
+        url: 'dev.to/',
+        icon: 'fa-brands fa-dev',
+        color: '#bbb'
+    },
+    {
+        name: 'Instagram',
+        description: 'When I snap pics and hit record',
+        url: 'instagram.com/iam',
+        icon: 'fa-brands fa-instagram',
+        color: '#e1306c'
+    },
+    {
+        name: 'Twitter',
+        description: 'Memez, tech, rants, philosophy',
+        url: 'twitter.com/',
+        icon: 'fa-brands fa-twitter',
+        color: '#1da1f2'
+    },
+    {
+        name: 'YouTube',
+        description: 'Tech tutorials and stuff',
+        url: 'youtube.com/c/',
+        icon: 'fa-brands fa-youtube',
+        color: '#ff0000'
+    },
+    {
+        name: 'freeCodeCamp',
+        description: 'Where I started web dev',
+        url: 'freecodecamp.org/',
+        icon: 'fa-brands fa-free-code-camp',
+        color: '#006400'
+    },
+    {
+        name: 'GitLab',
+        description: 'GitHub\'s sister',
+        url: 'gitlab.com/',
+        icon: 'fa-brands fa-gitlab',
+        color: '#e34c26'
+    },
+    {
+        name: 'Codepen',
+        description: 'For trying out design ideas',
+        url: 'codepen.io/',
+        icon: 'fa-brands fa-codepen',
+        color: '#aaa'
+    },
+    {
+        name: 'Reddit',
+        description: 'Lurk mostly, sometimes I post',
+        url: 'reddit.com/user/',
+        icon: 'fa-brands fa-reddit',
+        color: '#ff4500'
+    },
+    {
+        name: 'Behance',
+        description: 'For design ideas',
+        url: 'behance.net/',
+        icon: 'fa-brands fa-behance',
+        color: '#0057ff'
+    },
+    {
+        name: 'Twitch',
+        description: 'I\'ll stream someday!',
+        url: 'twitch.tv/',
+        icon: 'fa-brands fa-twitch',
+        color: '#6441a5'
+    },
+    {
+        name: 'Vimeo',
+        description: 'YouTube\'s brother',
+        url: 'vimeo.com/',
+        icon: 'fa-brands fa-vimeo',
+        color: '#1ab7ea'
+    },
+    {
+        name: 'Telegram',
+        description: 'Connect with me directly',
+        url: 't.me/iam',
+        icon: 'fa-brands fa-telegram',
+        color: '#0088cc'
+    },
+    {
+        name: 'Portfolio',
+        description: 'My own place on the internet',
+        url: '',
+        icon: 'fa-brands fa-fort-awesome',
+        color: '#1688f0',
+        append: '.github.io'
+    },
+    {
+        name: 'Blog',
+        description: 'I write about tech and stuff',
+        url: '',
+        icon: 'fa-brands fa-blogger',
+        color: '#f57c00',
+        append: '.github.io/blog'
+    },
+    {
+        name: 'Kaggle',
+        description: 'Sometimes I work with data',
+        url: 'kaggle.com/iam',
+        icon: 'fa-brands fa-kaggle',
+        color: '#008abc'
+    }
+];
 
 displayLinks(links);
