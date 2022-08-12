@@ -10,7 +10,7 @@ const buildIcon = function (link) {
 };
 
 const buildUrl = function (link) {
-    if (link.url.includes(':')) {
+    if (link.url.includes('http')) {
         return link.url;
     }
     let url = 'https://' + link.url + username;
