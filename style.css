@@ -1,16 +1,151 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+    --text: #e5e5e5;
+    --accent: #1688f0;
+    --bg-main: #000;
+    --bg-link: #0f0f1a;
+    --bg-alt: #0a0a0f;
+}
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text);
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    max-width: 1280px;
+}
+
+.hide {
+    /* '!important' is to make sure that when we add the class using JS, it takes precendence */
+    display: none !important;
+}
+
+h1 {
+    color: var(--accent);
+    margin-bottom: 4px;
+}
+
+small {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    color: var(--text);
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: var(--text);
+    margin: 0;
+}
+
+img {
+    border: 2px solid var(--accent);
+    box-shadow: 0 0px 6px var(--accent), 0 0px 6px var(--accent);
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filter-links,
+input {
+    background: var(--bg-alt);
+    width: 50%;
+    border-radius: 20px;
+    min-width: 300px;
+    margin-top: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 2px solid var(--accent);
+    color: var(--text);
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--bg-link);
+    margin-top: 0;
+    padding: 2em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 4em;
+}
+
+h3 {
+    margin: 4px;
+    width: 100%;
+    text-align: center;
+    color: var(--accent);
+}
+
+.link-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.link-list li {
+    width: 100%;
+    min-height: 80px;
+    border-radius: 10px;
+    margin: 1em 0;
+    border: 1px solid var(--accent);
+    padding: 1em;
+    text-align: center;
+    background-color: var(--bg-alt);
+}
+
+.link-list li:hover {
+    background-color: var(--bg-main);
+    box-shadow: 0 3px 6px var(--accent), 0 3px 6px var(--accent);
+}
+
+@media (min-width: 700px) {
+    .link-list {
+        justify-content: space-between;
+    }
+
+    .link-list li {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .link-list li {
+        width: 30%;
+    }
 }
