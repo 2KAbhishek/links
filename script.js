@@ -13,11 +13,7 @@ const buildUrl = function (link) {
     if (link.url.includes('http')) {
         return link.url;
     }
-    let url = 'https://' + link.url + username;
-    if (link.append) {
-        url += link.append;
-    }
-    return url;
+    return 'https://' + link.url + username;
 };
 
 const displayLinks = function (links) {
@@ -60,18 +56,16 @@ const links = [
     {
         name: 'Portfolio',
         description: 'My own place on the internet',
-        url: '',
+        url: 'https://2kabhishek.github.io',
         icon: 'fa-brands fa-fort-awesome',
-        color: '#1688f0',
-        append: '.github.io'
+        color: '#1688f0'
     },
     {
         name: 'Blog',
         description: 'I write about tech and stuff',
-        url: '',
+        url: 'https://2kabhishek.github.io/blog',
         icon: 'fa-brands fa-blogger',
-        color: '#f57c00',
-        append: '.github.io/blog'
+        color: '#f57c00'
     },
     {
         name: 'GitHub',
@@ -104,7 +98,7 @@ const links = [
     {
         name: 'Instagram',
         description: 'When I snap pics and hit record',
-        url: 'instagram.com/iam',
+        url: 'https://instagram.com/iam2kabhishek',
         icon: 'fa-brands fa-instagram',
         color: '#e1306c'
     },
@@ -125,7 +119,7 @@ const links = [
     {
         name: 'Telegram',
         description: 'Connect with me directly',
-        url: 't.me/iam',
+        url: 'https://t.me/iam2kabhishek',
         icon: 'fa-brands fa-telegram',
         color: '#0088cc'
     },
@@ -145,14 +139,14 @@ const links = [
     },
     {
         name: 'Twitch',
-        description: 'I\'ll stream someday!',
+        description: "I'll stream someday!",
         url: 'twitch.tv/',
         icon: 'fa-brands fa-twitch',
         color: '#6441a5'
     },
     {
         name: 'Vimeo',
-        description: 'YouTube\'s brother',
+        description: "YouTube's brother",
         url: 'vimeo.com/',
         icon: 'fa-brands fa-vimeo',
         color: '#1ab7ea'
@@ -173,7 +167,7 @@ const links = [
     },
     {
         name: 'GitLab',
-        description: 'GitHub\'s sister',
+        description: "GitHub's sister",
         url: 'gitlab.com/',
         icon: 'fa-brands fa-gitlab',
         color: '#e34c26'
@@ -184,7 +178,7 @@ const links = [
         url: 'behance.net/',
         icon: 'fa-brands fa-behance',
         color: '#0057ff'
-    },
+    }
 ];
 
 displayLinks(links);
