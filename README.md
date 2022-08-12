@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/links/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/links?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Present your links in style 🔗🔮</h3>
 
 <figure>
   <img src= "images/screenshot.png" alt="links screenshot" style="width:100%">
@@ -30,25 +30,17 @@
 
 </div>
 
-## What is this
+Have you ever wanted a place that can make all your profiles and links nicely organized, easily searchable and with super customizability?
 
-links is a web app that allows `<insert_target_audience>` to `<action/task_it_does>`.
+Well, now you can!
 
-Tired of the hundreds of tools for building a website?
+## Introducing links
 
-Want to build good ol web pages with `HTML` `CSS` & `JavaScript`?
-
-You can of course do that, links just makes it quicker, let your digital paintbrush loose and make something tiny.
+Present all your links in style with a easily accessible and highly customizable web app! ✨
 
 ## Inspiration
 
-links was inspired by `<reason/idea>`.
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+Needed a place to display all my profiles, used my [project's repo](https://2kabhishek.github.io/projects) as inspiration.
 
 ## Getting links
 
@@ -59,6 +51,34 @@ git clone https://github.com/2kabhishek/links
 cd links
 ```
 
+### Setup Your Own links
+
+You can easily set up links to show your own profiles.
+
+- Fork the repo
+- Clone it
+- Open up `script.js` and update the `username` variable to your internet username.
+- Edit the `links` JSON array in script.js, add/remove link elements as required.
+- Open up `index.html` and update the `title` tag to make it your username.
+- You may also want to update the favicon, update the `link` tag in `index.html`
+- Push your changes
+- Go to repo settings on GitHub and enable GitHub Pages.
+
+The site should be live on `https://<your-username>.github.io/links`
+
+#### Overriding URL Logic
+
+If your username is different across sites or you want to add a custom url as a link just add the entire url in the `url` field.
+Presence of `http` in the url string will override the URL building logic and present your link as is.
+
+#### Order Of Links
+
+The order of links presented will be the same as their order in the `links` array in `scrip.js`.
+
+#### Brand Icons
+
+This project uses [Font Awesome Brand](https://fontawesome.com/v6/icons?s=brands) for adding icons, if the icon you are looking for is not available, try using the full version of [Font Awesome](https://fontawesome.com/v6/icons/).
+
 ## Viewing links
 
 Open `index.html` in your favorite browser or visit [2kabhishek.github.io/links](https://2kabhishek.github.io/links).
@@ -66,25 +86,16 @@ Open `index.html` in your favorite browser or visit [2kabhishek.github.io/links]
 ## How it was built
 
 links was built using `HTML` `CSS` & `JavaScript`.
-
-## Challenges faced
-
-While building links the main challenges were `<issue/difficulty>`
+It was built on `neovim` and the node `live-server`.
+Uses font awesome for icons.
 
 ## What I learned
 
-While building links I `<learned/accomplished>` about `<learning/accomplishment>`
+- Learned new use cases for `JSON Arrays`
 
 ## What's next
 
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Finish it
+You tell me!
 
 Hit the ⭐ button if you found this useful.
 
