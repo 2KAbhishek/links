@@ -58,18 +58,20 @@ filterInput.addEventListener('input', function (e) {
 
 const links = [
     {
-        name: 'LinkedIn',
-        description: 'Connections and career updates',
-        url: 'linkedin.com/in/',
-        icon: 'fa-brands fa-linkedin',
-        color: '#0077B5'
+        name: 'Portfolio',
+        description: 'My own place on the internet',
+        url: '',
+        icon: 'fa-brands fa-fort-awesome',
+        color: '#1688f0',
+        append: '.github.io'
     },
     {
-        name: 'HackerRank',
-        description: 'For problem solving skills',
-        url: 'hackerrank.com/',
-        icon: 'fa-brands fa-hackerrank',
-        color: '#1ba94c'
+        name: 'Blog',
+        description: 'I write about tech and stuff',
+        url: '',
+        icon: 'fa-brands fa-blogger',
+        color: '#f57c00',
+        append: '.github.io/blog'
     },
     {
         name: 'GitHub',
@@ -79,11 +81,25 @@ const links = [
         color: '#24292e'
     },
     {
-        name: 'Dev.to',
+        name: 'LinkedIn',
+        description: 'Connections and career updates',
+        url: 'linkedin.com/in/',
+        icon: 'fa-brands fa-linkedin',
+        color: '#0077B5'
+    },
+    {
+        name: 'Dev',
         description: 'I share and learn with you!',
         url: 'dev.to/',
         icon: 'fa-brands fa-dev',
         color: '#bbb'
+    },
+    {
+        name: 'HackerRank',
+        description: 'For problem solving skills',
+        url: 'hackerrank.com/',
+        icon: 'fa-brands fa-hackerrank',
+        color: '#1ba94c'
     },
     {
         name: 'Instagram',
@@ -107,25 +123,11 @@ const links = [
         color: '#ff0000'
     },
     {
-        name: 'freeCodeCamp',
-        description: 'Where I started web dev',
-        url: 'freecodecamp.org/',
-        icon: 'fa-brands fa-free-code-camp',
-        color: '#006400'
-    },
-    {
-        name: 'GitLab',
-        description: 'GitHub\'s sister',
-        url: 'gitlab.com/',
-        icon: 'fa-brands fa-gitlab',
-        color: '#e34c26'
-    },
-    {
-        name: 'Codepen',
-        description: 'For trying out design ideas',
-        url: 'codepen.io/',
-        icon: 'fa-brands fa-codepen',
-        color: '#aaa'
+        name: 'Telegram',
+        description: 'Connect with me directly',
+        url: 't.me/iam',
+        icon: 'fa-brands fa-telegram',
+        color: '#0088cc'
     },
     {
         name: 'Reddit',
@@ -135,11 +137,11 @@ const links = [
         color: '#ff4500'
     },
     {
-        name: 'Behance',
-        description: 'For design ideas',
-        url: 'behance.net/',
-        icon: 'fa-brands fa-behance',
-        color: '#0057ff'
+        name: 'freeCodeCamp',
+        description: 'Where I started web dev',
+        url: 'freecodecamp.org/',
+        icon: 'fa-brands fa-free-code-camp',
+        color: '#006400'
     },
     {
         name: 'Twitch',
@@ -156,27 +158,11 @@ const links = [
         color: '#1ab7ea'
     },
     {
-        name: 'Telegram',
-        description: 'Connect with me directly',
-        url: 't.me/iam',
-        icon: 'fa-brands fa-telegram',
-        color: '#0088cc'
-    },
-    {
-        name: 'Portfolio',
-        description: 'My own place on the internet',
-        url: '',
-        icon: 'fa-brands fa-fort-awesome',
-        color: '#1688f0',
-        append: '.github.io'
-    },
-    {
-        name: 'Blog',
-        description: 'I write about tech and stuff',
-        url: '',
-        icon: 'fa-brands fa-blogger',
-        color: '#f57c00',
-        append: '.github.io/blog'
+        name: 'Codepen',
+        description: 'For trying out design ideas',
+        url: 'codepen.io/',
+        icon: 'fa-brands fa-codepen',
+        color: '#aaa'
     },
     {
         name: 'Kaggle',
@@ -184,7 +170,21 @@ const links = [
         url: 'kaggle.com/iam',
         icon: 'fa-brands fa-kaggle',
         color: '#008abc'
-    }
+    },
+    {
+        name: 'GitLab',
+        description: 'GitHub\'s sister',
+        url: 'gitlab.com/',
+        icon: 'fa-brands fa-gitlab',
+        color: '#e34c26'
+    },
+    {
+        name: 'Behance',
+        description: 'For design ideas',
+        url: 'behance.net/',
+        icon: 'fa-brands fa-behance',
+        color: '#0057ff'
+    },
 ];
 
 displayLinks(links);
