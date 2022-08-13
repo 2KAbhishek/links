@@ -20,7 +20,6 @@ const displayLinks = function (links) {
     filterInput.classList.remove('hide');
     for (const link of links) {
         let listItem = document.createElement('li');
-        console.log(link);
         listItem.classList.add('link');
         listItem.innerHTML = `
             <a href=${buildUrl(link)} target='_blank'>
