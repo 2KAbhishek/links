@@ -51,31 +51,41 @@ git clone https://github.com/2kabhishek/links
 cd links
 ```
 
-### Setup Your Own links
+## Setup Your Own links
 
 You can easily set up links to show your own profiles.
 
-- Fork the repo
-- Clone it
-- Open up `script.js` and update the `username` variable to your internet username.
-- Edit the `links` JSON array in script.js, add/remove link elements as required.
-- Open up `index.html` and update the `title` tag to make it your username.
-- You may also want to update the favicon, update the `link` tag in `index.html`
-- Push your changes
-- Go to repo settings on GitHub and enable GitHub Pages.
+-   Fork the repo
+-   Clone it
+-   Open up `script.js` and update the `username` variable to your internet username.
+-   Edit the `links` JSON array in `script.js`, add/remove link elements as required.
+-   Open up `index.html` and update the `title` tag to make it your username.
+-   You may also want to update the favicon, update the `link` tag in `index.html`
+-   Push your changes
+-   Go to repo settings on GitHub and enable GitHub Pages.
 
 The site should be live on `https://<your-username>.github.io/links`
 
-#### Overriding URL Logic
+### JSON Schema
+
+Every link has the following properties:
+
+-   `name`: The name of the link
+-   `description`: The description of the link
+-   `url`: The URL of the link
+-   `icon`: The icon of the link, fontawesome classes in use
+-   `color`: The color of the link, hex code in use
+
+### Overriding URL Logic
 
 If your username is different across sites or you want to add a custom url as a link just add the entire url in the `url` field.
 Presence of `http` in the url string will override the URL building logic and present your link as is.
 
-#### Order Of Links
+### Order Of Links
 
 The order of links presented will be the same as their order in the `links` array in `scrip.js`.
 
-#### Brand Icons
+### Brand Icons
 
 This project uses [Font Awesome Brand](https://fontawesome.com/v6/icons?s=brands) for adding icons, if the icon you are looking for is not available, try using the full version of [Font Awesome](https://fontawesome.com/v6/icons/).
 
@@ -91,7 +101,7 @@ Uses font awesome for icons.
 
 ## What I learned
 
-- Learned new use cases for `JSON Arrays`
+-   Learned new use cases for `JSON Arrays`
 
 ## What's next
 
