@@ -88,7 +88,7 @@ The order of links presented will be the same as their order in the `links` arra
 ### Themes
 
 Comes with a dark and light theme by default, depends upon your system configs.
-Edit the varialbles under `:root` in `styles.css` to modify colorscheme.
+Edit the variables under `:root` in `styles.css` to modify colorscheme.
 
 ### Brand Icons
 
