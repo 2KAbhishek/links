@@ -95,8 +95,8 @@ Although, the original purpose of links is to create a web app for your profiles
 
 -   **Portfolio Replacement**: Adding just a little bit of information about yourself to the `index.htnl` can convert links to your full fledged Portfolio.
 -   **Link.tree Replacement**: Combined with some basic tracking and metrics, links can easily be used as an alternative to link.tree.
--   **Custom Home Page**: You can create a custom home page using links's override URL feature, just add the complete page URLs you want to `links` int `script.js`
--   **Sharing Resources**: Links with overridden URLs can be easily used to share Resources after talks and presentations.
+-   **Custom Home Page**: You can create a custom home page with your favourite links, just add the page's complete URL to `links` in `script.js` and set your live website's link as your browser homepage.
+-   **Sharing Resources**: Links with overridden URLs can be easily used to share resources after talks and presentations.
 
 ## Viewing links
 
