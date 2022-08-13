@@ -1,9 +1,21 @@
-:root {
-    --text: #e5e5e5;
-    --accent: #1688f0;
-    --bg-main: #000;
-    --bg-link: #0f0f1a;
-    --bg-alt: #0a0a0f;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #e5e5e5;
+        --accent: #1688f0;
+        --bg-main: #000;
+        --bg-link: #0f0f1a;
+        --bg-alt: #0a0a0f;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text: #111;
+        --accent: #1688f0;
+        --bg-main: #fff;
+        --bg-link: #f0f0f0;
+        --bg-alt: #fafafa;
+    }
 }
 
 * {
