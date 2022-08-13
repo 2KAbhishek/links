@@ -85,6 +85,11 @@ Presence of `http` in the URL string will override the URL building logic and pr
 
 The order of links presented will be the same as their order in the `links` array in `scrip.js`.
 
+### Themes
+
+Comes with a dark and light theme by default, depends upon your system configs.
+Edit the varialbles under `:root` in `styles.css` to modify colorscheme.
+
 ### Brand Icons
 
 This project uses [Font Awesome Brand](https://fontawesome.com/v6/icons?s=brands) for adding icons, if the icon you are looking for is not available, try using the full version of [Font Awesome](https://fontawesome.com/v6/icons/).
