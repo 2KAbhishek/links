@@ -71,10 +71,10 @@ The site should be live on `https://<your-username>.github.io/links`
 Every link has the following properties:
 
 -   `name`: The name of the link
--   `description`: The description of the link
--   `url`: The URL of the link
+-   `description`: Brief description about the link
+-   `url`: The URL to open when clicked on the link
 -   `icon`: The icon of the link, fontawesome classes in use
--   `color`: The color of the link, hex code in use
+-   `color`: The color of the link icon, hex code in use
 
 ### Overriding URL Logic
 
