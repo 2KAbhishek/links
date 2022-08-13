@@ -85,7 +85,7 @@ const links = [
         description: 'I share and learn with you!',
         url: 'dev.to/',
         icon: 'fa-brands fa-dev',
-        color: '#bbb'
+        color: '#505050'
     },
     {
         name: 'HackerRank',
@@ -155,7 +155,7 @@ const links = [
         description: 'For trying out design ideas',
         url: 'codepen.io/',
         icon: 'fa-brands fa-codepen',
-        color: '#aaa'
+        color: '#888'
     },
     {
         name: 'Kaggle',
