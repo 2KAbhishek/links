@@ -36,7 +36,7 @@ Well, now you can!
 
 ## Introducing links
 
-Present all your links in style with a easily accessible and highly customizable web app! ✨
+Present all your links in style with an easily accessible and highly customizable web app! ✨
 
 ## Inspiration
 
@@ -73,13 +73,13 @@ Every link has the following properties:
 -   `name`: The name of the link
 -   `description`: Brief description about the link
 -   `url`: The URL to open when clicked on the link
--   `icon`: The icon of the link, fontawesome classes in use
+-   `icon`: The icon of the link, font awesome classes in use
 -   `color`: The color of the link icon, hex code in use
 
 ### Overriding URL Logic
 
-If your username is different across sites or you want to add a custom url as a link just add the entire url in the `url` field.
-Presence of `http` in the url string will override the URL building logic and present your link as is.
+If your username is different across sites, or you want to add a custom URL as a link just add the entire URL in the `url` field.
+Presence of `http` in the URL string will override the URL building logic and present your link as is.
 
 ### Order Of Links
 
@@ -88,6 +88,15 @@ The order of links presented will be the same as their order in the `links` arra
 ### Brand Icons
 
 This project uses [Font Awesome Brand](https://fontawesome.com/v6/icons?s=brands) for adding icons, if the icon you are looking for is not available, try using the full version of [Font Awesome](https://fontawesome.com/v6/icons/).
+
+## Use Cases
+
+Although, the original purpose of links is to create a web app for your profiles, it can also be used in some other scenarios.
+
+- **Portfolio Replacement**: Adding just a little bit of information about yourself to the `index.htnl` can convert links to your full fledged Portfolio.
+- **Link.tree Replacement**: Combined with some basic tracking and metrics, links can easily be used as an alternative to link.tree.
+- **Custom Home Page**: You can create a custom home page using links's override URL feature, just add the complete page URLs you want to `links` int `script.js`
+- **Sharing Resources**: Links with overridden URLs can be easily used to share Resources after talks and presentations.
 
 ## Viewing links
 
