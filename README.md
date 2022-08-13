@@ -93,10 +93,10 @@ This project uses [Font Awesome Brand](https://fontawesome.com/v6/icons?s=brands
 
 Although, the original purpose of links is to create a web app for your profiles, it can also be used in some other scenarios.
 
-- **Portfolio Replacement**: Adding just a little bit of information about yourself to the `index.htnl` can convert links to your full fledged Portfolio.
-- **Link.tree Replacement**: Combined with some basic tracking and metrics, links can easily be used as an alternative to link.tree.
-- **Custom Home Page**: You can create a custom home page using links's override URL feature, just add the complete page URLs you want to `links` int `script.js`
-- **Sharing Resources**: Links with overridden URLs can be easily used to share Resources after talks and presentations.
+-   **Portfolio Replacement**: Adding just a little bit of information about yourself to the `index.htnl` can convert links to your full fledged Portfolio.
+-   **Link.tree Replacement**: Combined with some basic tracking and metrics, links can easily be used as an alternative to link.tree.
+-   **Custom Home Page**: You can create a custom home page using links's override URL feature, just add the complete page URLs you want to `links` int `script.js`
+-   **Sharing Resources**: Links with overridden URLs can be easily used to share Resources after talks and presentations.
 
 ## Viewing links
 
