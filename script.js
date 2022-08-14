@@ -3,20 +3,20 @@ const linkList = document.querySelector('.link-list');
 const linksSection = document.querySelector('.links');
 const filterInput = document.querySelector('.filter-links');
 
-const buildIcon = function (link) {
+const buildIcon = (link) => {
     return `
         <span class='${link.icon}' style='color: ${link.color};'></span>
     `;
 };
 
-const buildUrl = function (link) {
+const buildUrl = (link) => {
     if (link.url.includes('http')) {
         return link.url;
     }
     return 'https://' + link.url + username;
 };
 
-const displayLinks = function (links) {
+const displayLinks = (links) => {
     filterInput.classList.remove('hide');
     for (const link of links) {
         let listItem = document.createElement('li');
@@ -36,7 +36,7 @@ const displayLinks = function (links) {
 };
 
 // dynamic search
-filterInput.addEventListener('input', function (e) {
+filterInput.addEventListener('input', (e) => {
     const search = e.target.value;
     const links = document.querySelectorAll('.link');
     const searchLowerText = search.toLowerCase();
