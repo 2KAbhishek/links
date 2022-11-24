@@ -88,11 +88,11 @@ const links = [
         color: '#505050'
     },
     {
-        name: 'HackerRank',
-        description: 'For problem solving skills',
-        url: 'hackerrank.com/',
-        icon: 'fa-brands fa-hackerrank',
-        color: '#1ba94c'
+        name: 'Twitter',
+        description: 'Memez, tech, rants, philosophy',
+        url: 'twitter.com/',
+        icon: 'fa-brands fa-twitter',
+        color: '#1da1f2'
     },
     {
         name: 'Instagram',
@@ -102,13 +102,6 @@ const links = [
         color: '#e1306c'
     },
     {
-        name: 'Twitter',
-        description: 'Memez, tech, rants, philosophy',
-        url: 'twitter.com/',
-        icon: 'fa-brands fa-twitter',
-        color: '#1da1f2'
-    },
-    {
         name: 'YouTube',
         description: 'Tech tutorials and stuff',
         url: 'youtube.com/c/',
@@ -116,18 +109,39 @@ const links = [
         color: '#ff0000'
     },
     {
-        name: 'Telegram',
-        description: 'Connect with me directly',
-        url: 'https://t.me/iam2kabhishek',
-        icon: 'fa-brands fa-telegram',
-        color: '#0088cc'
-    },
-    {
         name: 'Reddit',
         description: 'Lurk mostly, sometimes I post',
         url: 'reddit.com/user/',
         icon: 'fa-brands fa-reddit',
         color: '#ff4500'
+    },
+    {
+        name: 'Exercism',
+        description: 'For learning new languages',
+        url: 'hackerrank.com/',
+        icon: 'fa-brands fa-font-awesome',
+        color: '#231b53'
+    },
+    {
+        name: 'HackerRank',
+        description: 'For problem solving skills',
+        url: 'hackerrank.com/',
+        icon: 'fa-brands fa-hackerrank',
+        color: '#1ba94c'
+    },
+    {
+        name: 'Leetcode',
+        description: 'More problem solving',
+        url: 'hackerrank.com/',
+        icon: 'fa-brands fa-black-tie',
+        color: '#e08b32'
+    },
+    {
+        name: 'Telegram',
+        description: 'Connect with me directly',
+        url: 'https://t.me/iam2kabhishek',
+        icon: 'fa-brands fa-telegram',
+        color: '#0088cc'
     },
     {
         name: 'freeCodeCamp',
