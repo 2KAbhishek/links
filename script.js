@@ -60,6 +60,20 @@ const links = [
         color: '#1688f0'
     },
     {
+        name: 'GitHub',
+        description: 'My favourite place :)',
+        url: 'github.com/',
+        icon: 'fa-brands fa-github',
+        color: '#24292e'
+    },
+    {
+        name: 'YouTube',
+        description: 'Tech tutorials and stuff',
+        url: 'youtube.com/c/',
+        icon: 'fa-brands fa-youtube',
+        color: '#ff0000'
+    },
+    {
         name: 'Blog',
         description: 'I write about tech and stuff',
         url: 'https://2kabhishek.github.io/blog',
@@ -67,11 +81,11 @@ const links = [
         color: '#f57c00'
     },
     {
-        name: 'GitHub',
-        description: 'My favourite place :)',
-        url: 'github.com/',
-        icon: 'fa-brands fa-github',
-        color: '#24292e'
+        name: 'Twitter',
+        description: 'Memez, tech, rants, philosophy',
+        url: 'twitter.com/',
+        icon: 'fa-brands fa-twitter',
+        color: '#1da1f2'
     },
     {
         name: 'LinkedIn',
@@ -88,13 +102,6 @@ const links = [
         color: '#505050'
     },
     {
-        name: 'Twitter',
-        description: 'Memez, tech, rants, philosophy',
-        url: 'twitter.com/',
-        icon: 'fa-brands fa-twitter',
-        color: '#1da1f2'
-    },
-    {
         name: 'Instagram',
         description: 'When I snap pics and hit record',
         url: 'https://instagram.com/iam2kabhishek',
@@ -102,11 +109,11 @@ const links = [
         color: '#e1306c'
     },
     {
-        name: 'YouTube',
-        description: 'Tech tutorials and stuff',
-        url: 'youtube.com/c/',
-        icon: 'fa-brands fa-youtube',
-        color: '#ff0000'
+        name: 'Twitch',
+        description: "I stream sometimes!",
+        url: 'twitch.tv/',
+        icon: 'fa-brands fa-twitch',
+        color: '#6441a5'
     },
     {
         name: 'Reddit',
@@ -151,13 +158,6 @@ const links = [
         color: '#006400'
     },
     {
-        name: 'Twitch',
-        description: "I'll stream someday!",
-        url: 'twitch.tv/',
-        icon: 'fa-brands fa-twitch',
-        color: '#6441a5'
-    },
-    {
         name: 'Vimeo',
         description: "YouTube's brother",
         url: 'vimeo.com/',
@@ -178,20 +178,6 @@ const links = [
         icon: 'fa-brands fa-kaggle',
         color: '#008abc'
     },
-    {
-        name: 'GitLab',
-        description: "GitHub's sister",
-        url: 'gitlab.com/',
-        icon: 'fa-brands fa-gitlab',
-        color: '#e34c26'
-    },
-    {
-        name: 'Behance',
-        description: 'For design ideas',
-        url: 'behance.net/',
-        icon: 'fa-brands fa-behance',
-        color: '#0057ff'
-    }
 ];
 
 displayLinks(links);
