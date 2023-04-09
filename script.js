@@ -102,7 +102,7 @@ const links = [
         description: 'Want to talk? Write me a mail',
         url: 'mailto:iam2kabhishek@gmail.com',
         icon: 'fa-brands fa-telegram',
-        color: '#0088cc'
+        color: '#1ed75f'
     },
     {
         name: 'Instagram',
