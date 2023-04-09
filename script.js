@@ -156,7 +156,7 @@ const links = [
     {
         name: 'Leetcode',
         description: 'More problem solving',
-        url: 'hackerrank.com/',
+        url: 'leetcode.com/',
         icon: 'fa-brands fa-black-tie',
         color: '#e08b32'
     },
