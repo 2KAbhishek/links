@@ -54,7 +54,7 @@ filterInput.addEventListener('input', (e) => {
 const links = [
     {
         name: 'Portfolio',
-        description: 'My own place on the internet',
+        description: '/home/2kabhishek',
         url: 'https://2kabhishek.github.io',
         icon: 'fa-brands fa-fort-awesome',
         color: '#1688f0'
@@ -68,52 +68,59 @@ const links = [
     },
     {
         name: 'YouTube',
-        description: 'Tech tutorials and stuff',
+        description: 'I make tooling videos for devs',
         url: 'youtube.com/c/',
         icon: 'fa-brands fa-youtube',
         color: '#ff0000'
     },
     {
         name: 'Blog',
-        description: 'I write about tech and stuff',
+        description: 'About things I build and learn',
         url: 'https://2kabhishek.github.io/blog',
         icon: 'fa-brands fa-blogger',
         color: '#f57c00'
     },
     {
         name: 'Twitter',
-        description: 'Memez, tech, rants, philosophy',
+        description: 'Tech, rants, philosophy, memes',
         url: 'twitter.com/',
         icon: 'fa-brands fa-twitter',
         color: '#1da1f2'
     },
     {
         name: 'LinkedIn',
-        description: 'Connections and career updates',
+        description: 'Career updates and thoughts',
         url: 'linkedin.com/in/',
         icon: 'fa-brands fa-linkedin',
         color: '#0077B5'
     },
     {
         name: 'Dev',
-        description: 'I share and learn with you!',
+        description: 'Where I connect with Devs',
         url: 'dev.to/',
         icon: 'fa-brands fa-dev',
         color: '#505050'
     },
     {
         name: 'Instagram',
-        description: 'When I snap pics and hit record',
+        description: 'I like travelling and recording',
         url: 'https://instagram.com/iam2kabhishek',
         icon: 'fa-brands fa-instagram',
         color: '#e1306c'
     },
     {
         name: 'Twitch',
-        description: "I stream sometimes!",
+        description: "I stream my side projects!",
         url: 'twitch.tv/',
         icon: 'fa-brands fa-twitch',
         color: '#6441a5'
+    },
+    {
+        name: 'Vimeo',
+        description: "For Hackathons and demos",
+        url: 'vimeo.com/',
+        icon: 'fa-brands fa-vimeo',
+        color: '#1ab7ea'
     },
     {
         name: 'Reddit',
@@ -156,13 +163,6 @@ const links = [
         url: 'freecodecamp.org/',
         icon: 'fa-brands fa-free-code-camp',
         color: '#006400'
-    },
-    {
-        name: 'Vimeo',
-        description: "YouTube's brother",
-        url: 'vimeo.com/',
-        icon: 'fa-brands fa-vimeo',
-        color: '#1ab7ea'
     },
     {
         name: 'Codepen',
