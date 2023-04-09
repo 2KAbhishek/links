@@ -13,6 +13,9 @@ const buildUrl = (link) => {
     if (link.url.includes('http')) {
         return link.url;
     }
+    if (link.url.includes('mailto')) {
+        return link.url;
+    }
     return 'https://' + link.url + username;
 };
 
@@ -74,18 +77,18 @@ const links = [
         color: '#ff0000'
     },
     {
-        name: 'Blog',
-        description: 'About things I build and learn',
-        url: 'https://2kabhishek.github.io/blog',
-        icon: 'fa-brands fa-blogger',
-        color: '#f57c00'
-    },
-    {
         name: 'Twitter',
         description: 'Tech, rants, philosophy, memes',
         url: 'twitter.com/',
         icon: 'fa-brands fa-twitter',
         color: '#1da1f2'
+    },
+    {
+        name: 'Blog',
+        description: 'About things I build and learn',
+        url: 'https://2kabhishek.github.io/blog',
+        icon: 'fa-brands fa-blogger',
+        color: '#f57c00'
     },
     {
         name: 'LinkedIn',
@@ -95,11 +98,11 @@ const links = [
         color: '#0077B5'
     },
     {
-        name: 'Dev',
-        description: 'Where I connect with Devs',
-        url: 'dev.to/',
-        icon: 'fa-brands fa-dev',
-        color: '#505050'
+        name: 'Mail',
+        description: 'Want to talk? Write me a mail',
+        url: 'mailto:iam2kabhishek@gmail.com',
+        icon: 'fa-brands fa-telegram',
+        color: '#0088cc'
     },
     {
         name: 'Instagram',
@@ -107,6 +110,13 @@ const links = [
         url: 'https://instagram.com/iam2kabhishek',
         icon: 'fa-brands fa-instagram',
         color: '#e1306c'
+    },
+    {
+        name: 'Dev',
+        description: 'Where I connect with Devs',
+        url: 'dev.to/',
+        icon: 'fa-brands fa-dev',
+        color: '#505050'
     },
     {
         name: 'Twitch',
@@ -149,13 +159,6 @@ const links = [
         url: 'hackerrank.com/',
         icon: 'fa-brands fa-black-tie',
         color: '#e08b32'
-    },
-    {
-        name: 'Telegram',
-        description: 'Connect with me directly',
-        url: 'https://t.me/iam2kabhishek',
-        icon: 'fa-brands fa-telegram',
-        color: '#0088cc'
     },
     {
         name: 'freeCodeCamp',
