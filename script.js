@@ -142,7 +142,7 @@ const links = [
     {
         name: 'Exercism',
         description: 'For learning new languages',
-        url: 'hackerrank.com/',
+        url: 'exercism.org/profiles/',
         icon: 'fa-brands fa-font-awesome',
         color: '#231b53'
     },
