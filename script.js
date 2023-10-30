@@ -102,14 +102,14 @@ const links = [
         description: 'Want to talk? Write me a mail',
         url: 'mailto:iam2kabhishek@gmail.com',
         icon: 'fa-brands fa-telegram',
-        color: '#1ed75f'
+        color: '#0088cc'
     },
     {
-        name: 'Instagram',
-        description: 'I like travelling and recording',
-        url: 'https://instagram.com/iam2kabhishek',
-        icon: 'fa-brands fa-instagram',
-        color: '#e1306c'
+        name: 'Projects',
+        description: 'All my projects!',
+        url: 'https://2kabhishek.github.io/projects',
+        icon: 'fa-brands fa-product-hunt',
+        color: '#da552f'
     },
     {
         name: 'Dev',
@@ -119,18 +119,18 @@ const links = [
         color: '#505050'
     },
     {
+        name: 'Instagram',
+        description: 'I like travelling and recording',
+        url: 'https://instagram.com/iam2kabhishek',
+        icon: 'fa-brands fa-instagram',
+        color: '#e1306c'
+    },
+    {
         name: 'Twitch',
-        description: "I stream my side projects!",
+        description: 'I stream my side projects!',
         url: 'twitch.tv/',
         icon: 'fa-brands fa-twitch',
         color: '#6441a5'
-    },
-    {
-        name: 'Vimeo',
-        description: "For Hackathons and demos",
-        url: 'vimeo.com/',
-        icon: 'fa-brands fa-vimeo',
-        color: '#1ab7ea'
     },
     {
         name: 'Reddit',
@@ -180,7 +180,7 @@ const links = [
         url: 'kaggle.com/iam',
         icon: 'fa-brands fa-kaggle',
         color: '#008abc'
-    },
+    }
 ];
 
 displayLinks(links);
