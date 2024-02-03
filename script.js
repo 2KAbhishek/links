@@ -56,25 +56,25 @@ filterInput.addEventListener('input', (e) => {
 
 const links = [
     {
-        name: 'Portfolio',
-        description: '/home/2kabhishek',
-        url: 'https://2kabhishek.github.io',
-        icon: 'fa-brands fa-fort-awesome',
-        color: '#1688f0'
+        name: 'Mail',
+        description: 'Want to talk? Write me a mail',
+        url: 'mailto:iam2kabhishek@gmail.com',
+        icon: 'fa-brands fa-telegram',
+        color: '#0088cc'
     },
     {
         name: 'GitHub',
         description: 'My favourite place :)',
         url: 'github.com/',
         icon: 'fa-brands fa-github',
-        color: '#24292e'
+        color: '#fff'
     },
     {
-        name: 'YouTube',
-        description: 'I make tooling videos for devs',
-        url: 'youtube.com/c/',
-        icon: 'fa-brands fa-youtube',
-        color: '#ff0000'
+        name: 'Resume',
+        description: 'What I have done so far',
+        url: 'https://github.com/2kabhishek/resume/blob/main/resume.pdf',
+        icon: 'fa-brands fa-wpforms',
+        color: '#008abd'
     },
     {
         name: 'Twitter',
@@ -84,11 +84,11 @@ const links = [
         color: '#1da1f2'
     },
     {
-        name: 'Blog',
-        description: 'About things I build and learn',
-        url: 'https://2kabhishek.github.io/blog',
-        icon: 'fa-brands fa-blogger',
-        color: '#f57c00'
+        name: 'YouTube',
+        description: 'I make tooling videos for devs',
+        url: 'youtube.com/c/',
+        icon: 'fa-brands fa-youtube',
+        color: '#ff0000'
     },
     {
         name: 'LinkedIn',
@@ -98,11 +98,18 @@ const links = [
         color: '#0077B5'
     },
     {
-        name: 'Mail',
-        description: 'Want to talk? Write me a mail',
-        url: 'mailto:iam2kabhishek@gmail.com',
-        icon: 'fa-brands fa-telegram',
-        color: '#0088cc'
+        name: 'Blog',
+        description: 'About things I build and learn',
+        url: 'https://2kabhishek.github.io/blog',
+        icon: 'fa-brands fa-blogger',
+        color: '#f57c00'
+    },
+    {
+        name: 'Portfolio',
+        description: '/home/2kabhishek',
+        url: 'https://2kabhishek.github.io',
+        icon: 'fa-brands fa-fort-awesome',
+        color: '#1688f0'
     },
     {
         name: 'Projects',
@@ -112,25 +119,11 @@ const links = [
         color: '#da552f'
     },
     {
-        name: 'Dev',
-        description: 'Where I connect with Devs',
-        url: 'dev.to/',
-        icon: 'fa-brands fa-dev',
-        color: '#505050'
-    },
-    {
         name: 'Instagram',
-        description: 'I like travelling and recording',
+        description: 'Glimpse of my life and journey',
         url: 'https://instagram.com/iam2kabhishek',
         icon: 'fa-brands fa-instagram',
         color: '#e1306c'
-    },
-    {
-        name: 'Twitch',
-        description: 'I stream my side projects!',
-        url: 'twitch.tv/',
-        icon: 'fa-brands fa-twitch',
-        color: '#6441a5'
     },
     {
         name: 'Reddit',
@@ -140,11 +133,11 @@ const links = [
         color: '#ff4500'
     },
     {
-        name: 'Exercism',
-        description: 'For learning new languages',
-        url: 'exercism.org/profiles/',
-        icon: 'fa-brands fa-font-awesome',
-        color: '#231b53'
+        name: 'Dev',
+        description: 'Where I connect with Devs',
+        url: 'dev.to/',
+        icon: 'fa-brands fa-dev',
+        color: '#ccc'
     },
     {
         name: 'HackerRank',
@@ -154,11 +147,11 @@ const links = [
         color: '#1ba94c'
     },
     {
-        name: 'Leetcode',
-        description: 'More problem solving',
-        url: 'leetcode.com/',
-        icon: 'fa-brands fa-black-tie',
-        color: '#e08b32'
+        name: 'Exercism',
+        description: 'For learning new languages',
+        url: 'exercism.org/profiles/',
+        icon: 'fa-brands fa-font-awesome',
+        color: '#1b51d2'
     },
     {
         name: 'freeCodeCamp',
@@ -168,18 +161,25 @@ const links = [
         color: '#006400'
     },
     {
+        name: 'Twitch',
+        description: 'I stream my side projects!',
+        url: 'twitch.tv/',
+        icon: 'fa-brands fa-twitch',
+        color: '#6441a5'
+    },
+    {
+        name: 'Leetcode',
+        description: 'More problem solving',
+        url: 'leetcode.com/',
+        icon: 'fa-brands fa-black-tie',
+        color: '#e08b32'
+    },
+    {
         name: 'Codepen',
         description: 'For trying out design ideas',
         url: 'codepen.io/',
         icon: 'fa-brands fa-codepen',
         color: '#888'
-    },
-    {
-        name: 'Kaggle',
-        description: 'Sometimes I work with data',
-        url: 'kaggle.com/iam',
-        icon: 'fa-brands fa-kaggle',
-        color: '#008abc'
     }
 ];
 
