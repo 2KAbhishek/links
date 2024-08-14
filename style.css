@@ -44,7 +44,6 @@ body {
 }
 
 .hide {
-    /* '!important' is to make sure that when we add the class using JS, it takes precendence */
     display: none !important;
 }
 
@@ -63,6 +62,7 @@ small {
 p {
     margin: 0;
     color: var(--text);
+    font-size: 1rem;
 }
 
 h2 {
@@ -122,6 +122,7 @@ h3 {
     width: 100%;
     text-align: center;
     color: var(--accent);
+    font-size: 1.5rem;
 }
 
 .link-list {
