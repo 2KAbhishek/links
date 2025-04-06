@@ -126,6 +126,13 @@ const links = [
         color: '#e1306c'
     },
     {
+        name: 'Talks',
+        description: 'Talks I have given',
+        url: 'https://github.com/2kabhishek/talks',
+        icon: 'fa-brands fa-space-awesome',
+        color: '#3bebb5'
+    },
+    {
         name: 'Reddit',
         description: 'Lurk mostly, sometimes I post',
         url: 'reddit.com/user/',
@@ -137,28 +144,7 @@ const links = [
         description: 'Where I connect with Devs',
         url: 'dev.to/',
         icon: 'fa-brands fa-dev',
-        color: '#ccc'
-    },
-    {
-        name: 'HackerRank',
-        description: 'For problem solving skills',
-        url: 'hackerrank.com/',
-        icon: 'fa-brands fa-hackerrank',
-        color: '#1ba94c'
-    },
-    {
-        name: 'Exercism',
-        description: 'For learning new languages',
-        url: 'exercism.org/profiles/',
-        icon: 'fa-brands fa-font-awesome',
-        color: '#1b51d2'
-    },
-    {
-        name: 'freeCodeCamp',
-        description: 'Where I started web dev',
-        url: 'freecodecamp.org/',
-        icon: 'fa-brands fa-free-code-camp',
-        color: '#006400'
+        color: '#cccccc'
     },
     {
         name: 'Twitch',
@@ -168,18 +154,32 @@ const links = [
         color: '#6441a5'
     },
     {
+        name: 'Exercism',
+        description: 'For learning new languages',
+        url: 'exercism.org/profiles/',
+        icon: 'fa-brands fa-font-awesome',
+        color: '#1b51d2'
+    },
+    {
+        name: 'HackerRank',
+        description: 'For problem solving skills',
+        url: 'hackerrank.com/',
+        icon: 'fa-brands fa-hackerrank',
+        color: '#1ba94c'
+    },
+    {
+        name: 'BuyMeACoffee',
+        description: 'Liked my work? Buy me a coffee',
+        url: 'buymeacoffee.com/',
+        icon: 'fa-brands fa-github-alt',
+        color: '#ffcb4f'
+    },
+    {
         name: 'Leetcode',
         description: 'More problem solving',
         url: 'leetcode.com/',
         icon: 'fa-brands fa-black-tie',
         color: '#e08b32'
-    },
-    {
-        name: 'Codepen',
-        description: 'For trying out design ideas',
-        url: 'codepen.io/',
-        icon: 'fa-brands fa-codepen',
-        color: '#888'
     }
 ];
 
