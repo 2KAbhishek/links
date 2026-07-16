@@ -83,7 +83,7 @@ const links = [
         description: 'My favourite place :)',
         url: 'github.com/',
         icon: 'fa-brands fa-github',
-        color: '#fff'
+        color: 'var(--text)'
     },
     {
         name: 'Resume',
@@ -160,7 +160,7 @@ const links = [
         description: 'Where I connect with Devs',
         url: 'dev.to/',
         icon: 'fa-brands fa-dev',
-        color: '#cccccc'
+        color: 'var(--text)'
     },
     {
         name: 'Twitch',
