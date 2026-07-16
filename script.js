@@ -200,3 +200,16 @@ const links = [
 ];
 
 displayLinks(links);
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== filterInput) {
+        e.preventDefault();
+        filterInput.focus();
+    }
+    if (e.key === 'Escape') {
+        filterInput.value = '';
+        filterInput.dispatchEvent(new Event('input'));
+        filterInput.blur();
+    }
+});
