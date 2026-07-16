@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: var(--bg-main);
     color: var(--text);
     font-size: 16px;
