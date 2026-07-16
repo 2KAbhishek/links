@@ -43,13 +43,29 @@ filterInput.addEventListener('input', (e) => {
     const search = e.target.value;
     const links = document.querySelectorAll('.link');
     const searchLowerText = search.toLowerCase();
+    let visibleCount = 0;
 
     for (const link of links) {
         const lowerText = link.innerText.toLowerCase();
         if (lowerText.includes(searchLowerText)) {
             link.classList.remove('hide');
+            visibleCount++;
         } else {
             link.classList.add('hide');
+        }
+    }
+
+    let noResultsMsg = document.querySelector('.no-results');
+    if (visibleCount === 0) {
+        if (!noResultsMsg) {
+            noResultsMsg = document.createElement('p');
+            noResultsMsg.classList.add('no-results');
+            linkList.appendChild(noResultsMsg);
+        }
+        noResultsMsg.textContent = `No links found matching "${search}"`;
+    } else {
+        if (noResultsMsg) {
+            noResultsMsg.remove();
         }
     }
 });
